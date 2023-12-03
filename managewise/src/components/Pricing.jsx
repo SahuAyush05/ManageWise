@@ -5,11 +5,11 @@ import "./Pricing.css";
 import Card8 from "../Cards/Card8";
 const Pricing = () => {
   return (
-    <div className="pricing">
+    <div className="pricing" id="price">
       <div className="pricinginner">
         <div className="priceupper">
           <div className="featuresfirst">
-            <div className="featureshello">
+            <div className="pricehello">
               <p>💲PRICING</p>
             </div>
             <h1>

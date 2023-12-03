@@ -3,7 +3,7 @@ import './Clients.css';
 import Testimonials from "../Cards/Testmonials";
 const Clients = () => {
   return (
-    <div className="clients">
+    <div className="clients" id="clients">
       <div className="clientstop">
         <div className="clientlogo">
           <p>🧡 TESTIMONIALS</p>

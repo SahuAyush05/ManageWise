@@ -1,0 +1,7 @@
+.home {
+  background: linear-gradient(
+    180deg,
+    var(--token-25b49406-73f2-421a-adb7-81b18f488918, #fdf2ec) 0%,
+    var(--token-20257545-130a-452b-8942-48d79a1f3d66, rgb(255, 255, 255)) 100%
+  );
+}

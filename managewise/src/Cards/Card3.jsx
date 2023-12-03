@@ -1,17 +1,29 @@
-import React from "react";
+// Card3.js
+import React, { useEffect } from "react";
 import "./Card3.css";
-import image4 from "../assets/image4.webp";
-const Card3 = () => {
+import "aos/dist/aos.css";
+import AOS from "aos";
+
+
+const Card3 = ({ title, description, image }) => {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+
   return (
-    <div className="card3">
+    <div className="card3" data-aos="fade-up">
       <div className="imgcontainer">
-        <img src={image4} alt="image4" />
+        <img src={image} alt={title} />
       </div>
       <div className="title-container">
-        <h2>Flexible Scheduling</h2>
+        <h2>{title}</h2>
       </div>
       <div className="desp-container">
-        <p>Say goodbye to chaos with our smart task management system</p>
+        <p>{description}</p>
       </div>
     </div>
   );

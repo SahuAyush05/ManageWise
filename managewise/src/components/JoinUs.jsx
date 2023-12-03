@@ -1,11 +1,21 @@
 import React from "react";
 import "./JoinUs.css";
 import image6 from '../assets/image6.webp'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 const JoinUs = () => {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
-    <div className="joinUs">
+    <div className="joinUs" id="join">
       <div className="joinInner">
-        <div className="joincontentwrapper">
+        <div className="joincontentwrapper" data-aos="flip-up">
           <div className="joinleft">
             <div className="joinlogo">
               <p>👋 DON'T MISS OUT</p>

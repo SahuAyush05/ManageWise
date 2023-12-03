@@ -1,9 +1,18 @@
 import React from "react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 const Card7 = () => {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
     <div>
-      <div class="w-auto  h-132 p-4 bg-black border border-gray-200 rounded-3xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div class="w-auto  h-132 p-4 bg-black border border-gray-200 rounded-3xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up">
         <h5 class="mb-4 text-xl w-28 border-white rounded-lg text-orange-600 pl-2 font-medium text-gray-500 dark:text-gray-400 bg-white ">
           Standard
         </h5>

@@ -52,14 +52,15 @@
     flex-direction: column;
     flex-wrap: nowrap;
 }
-.featureshello{
+.pricehello{
     border: 1px solid rgb(154, 154, 236);
     background-color: white;
     border-radius: 6px;
     padding: 0.2em 0.6em;
     width:120px;
+    z-index: 50;
 }
-.featureshello p{
+.pricehello p{
     color: rgb(103, 103, 220);
     font-weight: 600;
 }

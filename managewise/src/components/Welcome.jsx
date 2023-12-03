@@ -1,6 +1,16 @@
 import './Welcome.css';
 import image2 from "../assets/image2.webp"
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 const Welcome = () => {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
     <div className='start'>
         <div className="welcome">
@@ -20,7 +30,7 @@ const Welcome = () => {
         <div className='btn1'><p>Get Started</p></div>
         <div className='btn2'><p>Watch Demo</p></div>
       </div>
-      <div className='wlcmimg'>
+      <div className='wlcmimg' data-aos="zoom-in-down">
         <img className='image2' src={image2} alt='image2'/>
       </div>
     </div>

@@ -11,8 +11,11 @@ import Card5 from "../Cards/Card5";
 const Home = () => {
   return (
     <div className="home">
-      <Navbar />
-      <Welcome />
+      <div className="homein">
+        <Navbar />
+        <Welcome />
+      </div>
+
       <Features />
       <NeedAnswer />
       <Pricing />
