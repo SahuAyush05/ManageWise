@@ -1,0 +1,41 @@
+/* Testimonials.css */
+
+@keyframes slideCircular {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(20%);
+    }
+    40% {
+      transform: translateX(40%);
+    }
+    60% {
+      transform: translateX(60%);
+    }
+    80% {
+      transform: translateX(80%);
+    }
+
+    90%{
+        transform: translateX(100%);
+        display: none;
+    }
+    100%{
+        transform: translateX(0);
+        display: flex;
+    }
+  }
+  
+  .testimonials-container {
+    display: flex;
+    overflow-x: hidden;
+    animation: slideCircular 10s linear infinite; /* Adjust duration accordingly */
+    animation-delay: 1s;
+    
+  }
+  
+  .testimonials-container .card5 {
+    margin-right: 20px;
+  }
+  

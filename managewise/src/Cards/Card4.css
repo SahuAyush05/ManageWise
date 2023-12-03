@@ -1,0 +1,85 @@
+.card4 {
+  width: 100%;
+  height: auto;
+  flex: none;
+  position: relative;
+}
+
+.card44 {
+  display: flex;
+  justify-content: center;
+}
+
+.card40 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgb(247, 248, 253);
+  border-radius: 20px;
+}
+
+.card401 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card401inner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.card4data {
+
+  flex: 1; /* Take remaining width in the row */
+}
+
+.card4data p {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #07061b;
+  line-height: 1.5;
+}
+
+.card402.show .card4data p {
+  color: rgb(0, 153, 255);
+  transition: color 0.3s ease; /* Add transition property for color change */
+}
+
+.card4sign {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card402 {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  transition: max-height 0.3s ease; /* Transition the max-height property */
+}
+
+.card402.show {
+  max-height: 300px; /* Set the desired max height for Card402 */
+}
+
+.card402inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

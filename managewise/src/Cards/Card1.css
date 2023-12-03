@@ -1,0 +1,32 @@
+.card1{
+    display: flex;
+    flex-direction: column;
+    padding:2em 1.5em ;
+    padding-top: 4.1em;
+    background-color:#EDEDFA ;
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+}
+.card1inner{
+    background-color:white;
+    width:50px;
+    border-radius:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.2em;
+    
+}
+.star{
+    font-size: 2em;
+}
+.card1para{
+    padding: 0.8em 0;
+    width: 500px;
+}
+.card1para p{
+    font-size: 45px;
+    color: #1C1C1C;
+    font-weight: 500;
+}

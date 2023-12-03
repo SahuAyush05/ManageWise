@@ -1,0 +1,18 @@
+.card2{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    border: 1px solid rgb(217, 190, 246);
+    background-color: white;
+}
+.imgcontainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.desp-container{
+    padding-bottom: 1em;
+    padding: 0 1em;
+}

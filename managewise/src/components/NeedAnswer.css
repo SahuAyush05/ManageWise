@@ -1,0 +1,160 @@
+.need{
+    align-content: center;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 150px 0 120px;
+    position: relative;
+    width: 100%;
+}
+.needinner{
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 90%;
+}
+.needleft{
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: min-content;
+    justify-content: center;
+    max-width: 465px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.needlogo{
+    border: 1px solid rgb(154, 154, 236);
+    background-color: white;
+    border-radius: 6px;
+    padding: 0.2em 0.6em;
+    width:80px;
+}
+.needlogo p{
+    color: rgb(103, 103, 220);
+    font-weight: 600;
+}
+.lefttop{
+    flex: none;
+    height: auto;
+    max-width: 400px;
+    overflow: visible;
+    position: relative;
+    transform: perspective(1200px);
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+    z-index: 1;
+}
+.lefttop h1{
+    font-size: 4rem;
+    font-weight: 500;
+    color:#1C1C1C;
+    gap: 0;
+    letter-spacing: 0;
+}
+.lefttop h1 span{
+    padding: 0;
+    margin: 0;
+    color:rgb(254,129,98);
+}
+.leftbottom{
+    flex: none;
+    height: auto;
+    max-width: 550px;
+    overflow: visible;
+    position: relative;
+    white-space: pre-wrap;
+    width: 70%;
+    word-break: break-word;
+    word-wrap: break-word;
+    z-index: 3;
+}
+.leftbottom h3{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    line-height: 1.5em;
+    color: #767575;
+    text-decoration: none;
+    text-transform: none;
+
+}
+.needright{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    max-width: 100%;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 60%;
+    left:0;
+}
+.rightcontainer{
+    flex: none;
+    height: auto;
+    position: relative;
+    transform: perspective(1200px);
+    width: 100%;
+    z-index: 2;
+}
+.rightinner{
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+    display: contents;
+    
+}
+
+.rightcard{
+    width: 100%;
+    border-radius: 20px;
+    transform: none;
+    transform-origin: 50% 50% 0px;
+    opacity: 1;
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 12px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 800px;
+    will-change: transform;
+}

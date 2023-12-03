@@ -1,0 +1,221 @@
+.joinUs {
+  align-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    var(--token-20257545-130a-452b-8942-48d79a1f3d66, #ffffff) 0%,
+    var(--token-25b49406-73f2-421a-adb7-81b18f488918, rgb(253, 242, 236)) 100%
+  );
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 60px 0;
+  position: relative;
+  width: 100%;
+  
+}
+.joinInner {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 30px;
+  height: min-content;
+  justify-content: center;
+  max-width: 1200px;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  transform: perspective(1200px);
+  width: 90%;
+}
+.joincontentwrapper {
+  align-content: center;
+  align-items: center;
+  border: 1px solid rgb(246, 223, 240);
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0.6021873017743928px 0.36131238106463576px -0.9166666666666666px
+      #fafcff14,
+    0 2.288533303243457px 1.3731199819460744px -1.8333333333333333px #fafcff14,
+    0 10px 6.000000000000001px -2.75px #fafcff11, 0 34px 30px -16px #fe81620d;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 100px 30px;
+  position: relative;
+  width: 100%;
+  will-change: transform;
+}
+.joinleft {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  height: min-content;
+  justify-content: center;
+  max-width: 500px;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.joinright {
+  align-content: center;
+  align-items: center;
+  border-radius: 30px;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  max-width: 440px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  will-change: transform;
+}
+.joinlogo{
+    border: 1px solid rgb(154, 154, 236);
+    background-color: white;
+    border-radius: 6px;
+    padding: 0.2em 0.6em;
+    width:150px;
+}
+.joinlogo p{
+    color: rgb(103, 103, 220);
+    font-weight: 600;
+    font-size: 0.8em;
+}
+.joinhead{
+    flex: none;
+    height: auto;
+    max-width: 400px;
+    overflow: visible;
+    position: relative;
+    transform: perspective(1200px);
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+    z-index: 1;
+}
+.joinhead h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color:#1C1C1C;
+    gap: 0;
+    letter-spacing: 0;
+}
+
+.joinhead h1 span{
+    padding: 0;
+    margin: 0;
+    color:rgb(254,129,98);
+}
+
+.joindes{
+    flex: none;
+    height: auto;
+    max-width: 550px;
+    overflow: visible;
+    position: relative;
+    white-space: pre-wrap;
+    width: 70%;
+    word-break: break-word;
+    word-wrap: break-word;
+    z-index: 3;
+}
+
+.joindes p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    line-height: 1.5em;
+    color: #767575;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.joinbtn{
+    margin: 1em;
+    height: 3.4em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:230px;
+    border-radius: 12px;
+    background-color: #8247FF;
+    padding: 16PX 26PX;
+    border-radius: 20px;
+}
+.joinbtn p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.joinbtn:hover{
+    cursor: pointer;
+}
+
+.happytop{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.happycard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height:60px;
+    border-radius: 10px;
+    overflow: visible;
+    box-shadow: rgba(90, 19, 96, 0.777) 0px 2px 4px 0px;
+}
+
+.happycard p{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.happycard p span{
+    color:#8247FF ;
+    padding-right: 0.5em;
+}
+.rightimage{
+    padding: 1em;
+    margin-top: 2em;
+}
